@@ -13,7 +13,7 @@ An active OpenAI subscription. Ensure you are registered with OpenAI, your [bill
 Follow these steps to install and set up your environment:
 
 **Setup**:
-1. `pip install git+https://github.com/wordsmith-ai/hello-wordsmith -q`
+1. `pip install git+https://github.com/dimejune13/hello-wordsmith -q`
 2. `export OPENAI_API_KEY="sk-..."`
 
 Note:\
@@ -33,7 +33,7 @@ Using Python 3, on a Mac:
 1. `python3 -m venv hello-wordsmith` // Initialize the venv virtual environment folder
 2. `cd hello-wordsmith`
 3. `source ./bin/activate` // Launch the virtual environment
-4. `pip install git+https://github.com/wordsmith-ai/hello-wordsmith -q` // Install the hello-wordsmith package, suppressing output with the -q flag. Remove this flag to see install progress
+4. `pip install git+https://github.com/dimejune13/hello-wordsmith -q` // Install the hello-wordsmith package, suppressing output with the -q flag. Remove this flag to see install progress
 5. `export OPENAI_API_KEY="sk-..."` // Export your OpenAI key
 6. `hello-wordsmith -q 'What is article III about?'` // Send a single question, and wait for the answer to arrive using the RAG
 7. `hello-wordsmith --chunk-size 256 --chunk-overlap 64` // Start the interactive assistant to ask questions and answers:
